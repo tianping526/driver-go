@@ -1,4 +1,4 @@
-module github.com/taosdata/driver-go/v3
+module github.com/tianping526/driver-go/v3
 
 go 1.14
 
@@ -8,4 +8,7 @@ require (
 	github.com/hashicorp/go-version v1.7.0
 	github.com/json-iterator/go v1.1.12
 	github.com/stretchr/testify v1.8.2
+	github.com/taosdata/driver-go/v3 v3.7.8
 )
+
+replace github.com/taosdata/driver-go/v3 => .
